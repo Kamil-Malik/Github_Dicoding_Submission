@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Github User List - Dicoding Submission</string>
+    <string name="icon_lokasi">Icon Lokasi</string>
+    <string name="dicdoing_fundamental_android_submission">Dicdoing Fundamental Android Submission</string>
+    <string name="github_user_list">Github User List</string>
+
+    <string-array name="username">
+        <item>Kamil-Malik</item>
+        <item>mazipan</item>
+        <item>a8m</item>
+        <item>skydoves</item>
+        <item>lopspower</item>
+        <item>febryardiansyah</item>
+        <item>alfigufron</item>
+        <item>emsifa</item>
+        <item>mhaidarhanif</item>
+        <item>nataliedk</item>
+    </string-array>
+
+    <string-array name="fullname">
+        <item>Insannur Kamil Malik</item>
+        <item>Irfan Maulana</item>
+        <item>Ariel Mashraki</item>
+        <item>Jaewoong Eum</item>
+        <item>Lopez Mikhael</item>
+        <item>Febry Ardiansyah</item>
+        <item>M Alfi Gufron</item>
+        <item>Muhammad Syifa</item>
+        <item>M Haidar Hanif</item>
+        <item>Natalie Diva Krisantya</item>
+    </string-array>
+
+    <string-array name="follower">
+        <item>0</item>
+        <item>1,8k</item>
+        <item>3k</item>
+        <item>5,6k</item>
+        <item>890</item>
+        <item>70</item>
+        <item>7</item>
+        <item>140</item>
+        <item>780</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="following">
+        <item>1</item>
+        <item>327</item>
+        <item>29</item>
+        <item>22</item>
+        <item>70</item>
+        <item>20</item>
+        <item>6</item>
+        <item>11</item>
+        <item>2,4k</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Jambi, Indonesia</item>
+        <item>Jakarta, Indonesia</item>
+        <item>Tel Aviv, Israel</item>
+        <item>Seoul, South Korea</item>
+        <item>Paris, France</item>
+        <item>Purwokerto, Indonesia</item>
+        <item>Unknown</item>
+        <item>Jakarta, Indonesia</item>
+        <item>Bali, Indonesia</item>
+        <item>Bandung, Indonesia</item>
+    </string-array>
+
+    <string-array name="profile_picture">
+        <item>@drawable/eugen</item>
+        <item>@drawable/irfan</item>
+        <item>@drawable/ariel</item>
+        <item>@drawable/jaewoong</item>
+        <item>@drawable/lopez</item>
+        <item>@drawable/febry</item>
+        <item>@drawable/gufron</item>
+        <item>@drawable/syifa</item>
+        <item>@drawable/hanif</item>
+        <item>@drawable/natalie</item>
+    </string-array>
+</resources>
