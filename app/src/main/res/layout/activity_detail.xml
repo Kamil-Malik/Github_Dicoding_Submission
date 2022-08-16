@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
     android:background="@color/white"
     tools:context=".ui.DetailActivity">
 
     <include
         android:id="@+id/toolbar"
+        layout="@layout/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        layout="@layout/toolbar"/>
+        android:layout_height="wrap_content" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/ivProfilePicture"
@@ -50,68 +51,37 @@
         app:layout_constraintTop_toBottomOf="@id/tvFullName"
         tools:text="Kamil-Malik" />
 
-    <LinearLayout
-        android:id="@+id/linear1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvUsername">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/people"
-            tools:ignore="ContentDescription" />
-
-        <TextView
-            android:id="@+id/tvFollowers"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:textColor="@color/grey"
-            android:textSize="15sp"
-            tools:text="1,8k followers" />
-
-        <TextView
-            android:id="@+id/tvFollowing"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:textColor="@color/grey"
-            android:textSize="15sp"
-            tools:text="- 1,8k following" />
-    </LinearLayout>
-
-    <LinearLayout
+    <TextView
+        android:id="@+id/tvFollowerAndFollowing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
+        android:drawablePadding="5dp"
         android:gravity="center_vertical"
-        android:orientation="horizontal"
+        android:textColor="@color/grey"
+        android:textSize="15sp"
+        app:drawableStartCompat="@drawable/people"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/linear1"
-        tools:ignore="UseCompoundDrawables">
+        app:layout_constraintTop_toBottomOf="@+id/tvUsername"
+        tools:text="1,8k followers - 20 following" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/city"
-            tools:ignore="ContentDescription" />
 
-        <TextView
-            android:id="@+id/tvLocation"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:textColor="@color/grey"
-            android:textSize="15sp"
-            tools:text="Jambi, Indonesia" />
-    </LinearLayout>
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/grey"
+        android:textSize="15sp"
+        app:drawableStartCompat="@drawable/city"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFollowerAndFollowing"
+        tools:text="Jambi, Indonesia" />
 
     <ImageView
         android:id="@+id/btnShare"

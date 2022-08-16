@@ -9,13 +9,11 @@ import com.lelestacia.githubuserlist_dicodingsubmission.databinding.ActivityMain
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding : ActivityMainBinding
     private val userList = arrayListOf<User>()
 
-    @SuppressLint("Recycle")
     override fun onCreate(savedInstanceState : Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         val fullname = resources.getStringArray(R.array.fullname)
@@ -24,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         val follower = resources.getStringArray(R.array.follower)
         val following = resources.getStringArray(R.array.following)
         val picture = resources.obtainTypedArray(R.array.profile_picture)
+        picture.recycle()
 
         for (i in fullname.indices) {
             userList.add(
@@ -38,7 +37,9 @@ class MainActivity : AppCompatActivity() {
             )
         }
 
-        binding.rvGithubUserList.setHasFixedSize(true)
-        binding.rvGithubUserList.adapter = UserlistAdapter(userList)
+        binding.apply {
+            rvGithubUserList.setHasFixedSize(true)
+            rvGithubUserList.adapter = UserlistAdapter(userList)
+        }
     }
 }

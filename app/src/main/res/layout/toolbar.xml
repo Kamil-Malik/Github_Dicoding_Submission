@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/sen"
-        android:text="@string/dicdoing_fundamental_android_submission"
+        android:text="@string/dicoding_fundamental_android_submission"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"

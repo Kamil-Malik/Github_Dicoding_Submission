@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">Github User List - Dicoding Submission</string>
     <string name="icon_lokasi">Icon Lokasi</string>
-    <string name="dicdoing_fundamental_android_submission">Dicdoing Fundamental Android Submission</string>
+    <string name="dicoding_fundamental_android_submission">Dicoding Fundamental Android Submission</string>
     <string name="github_user_list">Github User List</string>
+    <string name="follower">followers</string>
+    <string name="following">following</string>
 
     <string-array name="username">
         <item>Kamil-Malik</item>
