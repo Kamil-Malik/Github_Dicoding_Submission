@@ -6,30 +6,24 @@
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
     android:background="@color/white"
-    tools:context=".ui.DetailActivity">
-
-    <include
-        android:id="@+id/toolbar"
-        layout="@layout/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    tools:context=".ui.view.DetailActivity">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/ivProfilePicture"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="32dp"
         app:civ_border_width="2dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintTop_toTopOf="parent"
         tools:src="@drawable/eugen" />
 
     <TextView
         android:id="@+id/tvFullName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/sen_bold"
         android:textColor="@color/black"
         android:textSize="25sp"
@@ -66,7 +60,6 @@
         app:layout_constraintTop_toBottomOf="@+id/tvUsername"
         tools:text="1,8k followers - 20 following" />
 
-
     <TextView
         android:id="@+id/tvLocation"
         android:layout_width="wrap_content"
@@ -102,4 +95,24 @@
         app:layout_constraintStart_toEndOf="@+id/tvFullName"
         app:layout_constraintTop_toTopOf="@+id/tvFullName"
         tools:ignore="ContentDescription" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/tablayout_background"
+        app:layout_constraintTop_toBottomOf="@id/tvLocation" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/light_grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tabs" />
+
+    <include
+        android:id="@+id/progressCircular"
+        layout="@layout/loading" />
 </androidx.constraintlayout.widget.ConstraintLayout>

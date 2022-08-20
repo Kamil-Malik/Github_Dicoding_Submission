@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kamil/AndroidStudioProjects/Github_Dicoding_Submission/app/src/main/res/drawable/tablayout_background.xml" value="0.1945" />
+        <entry key="..\:/Users/kamil/AndroidStudioProjects/Github_Dicoding_Submission/app/src/main/res/font/sen.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/kamil/AndroidStudioProjects/Github_Dicoding_Submission/app/src/main/res/font/sen_bold.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/kamil/AndroidStudioProjects/Github_Dicoding_Submission/app/src/main/res/layout/activity_detail.xml" value="0.25" />
+        <entry key="..\:/Users/kamil/AndroidStudioProjects/Github_Dicoding_Submission/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/kamil/AndroidStudioProjects/Github_Dicoding_Submission/app/src/main/res/layout/default_display.xml" value="0.33" />
+        <entry key="..\:/Users/kamil/AndroidStudioProjects/Github_Dicoding_Submission/app/src/main/res/layout/fragment_followers.xml" value="0.33" />
+        <entry key="..\:/Users/kamil/AndroidStudioProjects/Github_Dicoding_Submission/app/src/main/res/layout/fragment_following.xml" value="0.25" />
+        <entry key="..\:/Users/kamil/AndroidStudioProjects/Github_Dicoding_Submission/app/src/main/res/layout/loading.xml" value="0.5" />
+        <entry key="..\:/Users/kamil/AndroidStudioProjects/Github_Dicoding_Submission/app/src/main/res/layout/toolbar.xml" value="0.25" />
+        <entry key="..\:/Users/kamil/AndroidStudioProjects/Github_Dicoding_Submission/app/src/main/res/layout/userfollow_item_adapter.xml" value="0.1875" />
+        <entry key="..\:/Users/kamil/AndroidStudioProjects/Github_Dicoding_Submission/app/src/main/res/layout/userlist_item_adapter.xml" value="0.5" />
+        <entry key="..\:/Users/kamil/AndroidStudioProjects/Github_Dicoding_Submission/app/src/main/res/menu/toolbar_menu.xml" value="0.67" />
         <entry key="..\:/Users/kamil/Documents/Kotlin/GithubUserListDicodingSubmission/app/src/main/res/drawable/city.xml" value="0.1965" />
         <entry key="..\:/Users/kamil/Documents/Kotlin/GithubUserListDicodingSubmission/app/src/main/res/layout/activity_detail.xml" value="0.25" />
         <entry key="..\:/Users/kamil/Documents/Kotlin/GithubUserListDicodingSubmission/app/src/main/res/layout/activity_main.xml" value="0.33" />
@@ -16,5 +29,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

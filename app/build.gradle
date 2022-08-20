@@ -18,7 +18,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    viewBinding{
+    viewBinding {
         enabled true
     }
 
@@ -52,4 +52,20 @@ dependencies {
 
     //Circle Imageview
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    //Retrofit + Moshi
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation "com.squareup.retrofit2:converter-moshi:2.4.0"
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    //Viewmodel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
+    implementation "androidx.activity:activity-ktx:1.5.1"
+    implementation "com.squareup.okhttp3:logging-interceptor:4.9.0"
+
+    //Viewpager2
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+
+    //Fragment
+    implementation("androidx.fragment:fragment-ktx:1.5.2")
 }
